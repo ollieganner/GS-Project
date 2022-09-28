@@ -7,6 +7,6 @@ RSpec.describe Music do
 		list.add('Song2')
 		list.add('Song3')
 		result = list.view()
-		expect(result).to eq(['Song1', 'Song2', 'Song')
+		expect(result).to eq(['Song1', 'Song2', 'Song3'])
 	end 
 end 

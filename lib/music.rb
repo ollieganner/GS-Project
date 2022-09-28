@@ -5,7 +5,7 @@ class Music
 	def add(music)
 		@musics << music
 	end
-	def list
+	def view
 		@musics
 	end 
 end
